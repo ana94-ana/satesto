@@ -1,7 +1,7 @@
-import { createRouter,  RouterView } from 'vue-router'
-
+import { createRouter, createWebHistory, RouterView } from 'vue-router'
 
 const router = createRouter({
+  history: createWebHistory(),
   routes: [
     {
       path: '/',
@@ -15,3 +15,4 @@ const router = createRouter({
 
 
 export default router
+
